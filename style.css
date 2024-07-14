@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #3bab95, #191654);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1.75px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+select,
+input[type="time"],
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #333;
+}
+
+select,
+input[type="time"] {
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+button {
+  background: linear-gradient(to right, #2f5595, #19376d);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  padding: 12px 0;
+}
+
+button:hover {
+  background: linear-gradient(to right, #2a5298dd, #1e3b72da);
+}
+
+button:active {
+  background: #1c3c69e7;
+}
